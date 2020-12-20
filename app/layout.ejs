@@ -4,14 +4,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 讓ie更新edge -->
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><%- title %></title>
+
+  <!-- 瀏覽器標籤小圖示 16x16px大小
+  <link rel="shortcut icon" href=""> -->
+
+  <!-- fb專用meta
+  <meta property="og:title" content="學員使用 HTML、CSS 開發一個網站(FB的標題)" />
+  <meta property="og:description" content="FB的描述">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="FB上的網址" />
+  <meta property="og:image" content="FB的圖片" /> 
+  -->
+
+  <!-- 用在iPhone及iPad經由”加入主畫面”，在主畫面上直接產生icon連結的圖片
+  <link href="圖片路徑" rel="" /> -->
+
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
 <body>
   <header class="header">
     這是 header
+    <a href="#" class="btn btn-primary">123</a>
+    <div class="d-flex">
+      <p class="font-size-my7 mt-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, est
+        officiis!
+        Porro
+        eaque fuga magnam
+        provident molestiae quibusdam quaerat sit?</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, unde.</p>
+    </div>
   </header>
 
   <%- contents %>
@@ -19,6 +46,19 @@
   <footer class="footer">
     footer
   </footer>
+
+  <!--bs4-cdn-js-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+
+  <!--all-js-->
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
 </body>

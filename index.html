@@ -28,18 +28,35 @@
 </head>
 
 <body>
-  <header class="header">
-    這是 header
-    <a href="#" class="btn btn-primary">123</a>
-    <div class="d-flex">
-      <p class="font-size-my7 mt-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, est
-        officiis!
-        Porro
-        eaque fuga magnam
-        provident molestiae quibusdam quaerat sit?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, unde.</p>
-    </div>
+  <!-- header nav -->
+  <header class="container">
+    <nav class="d-flex justify-content-sm-between justify-content-center position-relative">
+      <h1 class="text-hide">
+        <a href="../dist/index.html" class="nav-link top-logo">寵愛毛小孩</a>
+      </h1>
+
+      <ul class="d-sm-flex align-items-center d-none">
+        <li>
+          <a class="text-my-primary font-weight-bold py-3 mr-6" href="#">預約服務</a>
+        </li>
+        <li>
+          <a class="text-my-primary font-weight-bold py-3 mr-6" href="#">成為寵物保姆</a>
+        </li>
+        <li>
+          <a class="text-my-primary font-weight-bold py-3" href="#">登入</a>
+        </li>
+      </ul>
+      <div class="table-rows d-sm-none position-absolute">
+        <a class="text-my-secondary" href="#">
+          <span class="material-icons font-size-my9">
+            table_rows
+          </span>
+        </a>
+      </div>
+    </nav>
   </header>
+
+
 
   
 <h1>
@@ -48,8 +65,21 @@
 
 <div class="box"></div>
 
+  <!-- kanban -->
+  <section class="kanban bg-my-success py-5">
+    <div class="kanban-body container">
+      <h2 class="kanban-title font-size-my10 font-weight-bold text-my-primary">有任何我們能幫助您的嗎？</h2>
+      <form class="kanban-form" action="#">
+        <label for="email" class="font-size-my5 font-weight-bold text-my-primary">輸入電子信箱<br>
+          將有專業人員在線幫您解決所有問題</label>
+        <input type="email" name="email" id="email" placeholder="example@gmail.com">
+        <input type="submit" value="送出">
+      </form>
+    </div>
+  </section>
+
   <footer class="footer">
-    footer
+
   </footer>
 
   <!--bs4-cdn-js-->

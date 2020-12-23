@@ -85,9 +85,9 @@ $theme-colors: map-merge(
     "light":      $light,
     "dark":       $dark,
     //my顏色設定 可更改
-    "my-primary": #916019,
-    "my-secondary": #8D8D8D,
-    "my-success"  : #E0E0E0,
+    "my-primary": #772400,
+    "my-secondary":#F8B52E,
+    "my-success"  : #F0AD25,
     "my-info":       #818A91,
     "my-light":      #ffffff,
     "my-modal":      #00000080,
@@ -152,8 +152,9 @@ $spacers: map-merge(
     5: ($spacer * 2),
     6: ($spacer * 2.5),
     7: ($spacer * 3),
-    8: ($spacer * 4),
-    9: ($spacer * 7),
+    8: ($spacer * 3.5),
+    9: ($spacer * 4),
+    10: ($spacer * 4.5),
   ),
   $spacers
 );

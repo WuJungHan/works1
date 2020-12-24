@@ -1,3 +1,47 @@
+//請載入bs4
+//結構請參考layout
+$width-enter: 180px;
+$width-link: 165px;
+
+$width-sm-enter: 350px;
+$width-sm-link: 160px;
+
+$width-md-enter: 380px;
+
+
+
 .kanban{
+  &-enter{
+    width:$width-enter;
+  }
+  @include media-breakpoint-up(sm){
+    &-enter{
+      width:$width-sm-enter;
+    }
+  }
+  @include media-breakpoint-up(md){
+    &-enter{
+      width:$width-md-enter;
+    }
+  }
+  &-link{
+    width:$width-link;
+    margin-left: -5px;
+  }
+  @include media-breakpoint-up(sm){
+    &-link{
+      width: $width-sm-link;
+    }
+  }
+
+
+  @include media-breakpoint-up(sm) { 
+    &-title{
+    font-size: 40px;
+  }
+    &-label{
+    font-size: 20px;
+    }
+  }
   
 }

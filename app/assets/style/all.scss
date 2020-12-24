@@ -1,7 +1,12 @@
+//bs4
 @import "../style/bootstrap/bootstrap.scss";
-
+//base
 @import "../style/base/typography";
-
+//utils
 @import "../style/utils/font";
-
+@import "../style/utils/border";
+@import "../style/utils/special-effects";
+//layout
 @import "../style/layout/header";
+//components
+@import "../style/components/kanban"

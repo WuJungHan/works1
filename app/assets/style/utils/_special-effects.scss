@@ -1,0 +1,15 @@
+$seconds-primary: 0.3s;
+
+$color-opacity:rgba(255,255,255,0.5);
+$color-primary :#772400;
+
+.transition-primary{
+   transition: $seconds-primary;
+}
+
+.hover-buttom-border{
+   border-bottom: 3px solid $color-opacity;
+   &:hover{
+   border-color: $color-primary;  
+   } 
+}

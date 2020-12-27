@@ -6,6 +6,8 @@ img{
   max-width: 100%;
   height: auto;
   object-fit:cover;
+  //下block 去除底下img buttom px用
+  display: block;
 }
 
 body{

@@ -1,12 +1,17 @@
-//bs4
+//bs4 & normalize reset
 @import "../style/bootstrap/bootstrap.scss";
 //base
 @import "../style/base/typography";
 //utils
 @import "../style/utils/font";
 @import "../style/utils/border";
+@import "../style/utils/sizing";
+@import "../style/utils/spacing";
 @import "../style/utils/special-effects";
 //layout
 @import "../style/layout/header";
+//pages
+@import "../style/pages/index";
 //components
-@import "../style/components/kanban"
+@import "../style/components/kanban";
+@import "../style/components/search"

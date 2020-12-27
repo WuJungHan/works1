@@ -1,79 +1,80 @@
+$font-size:4px;
 .font-size-my1{
-  font-size: 4px;
+  font-size: $font-size;
 }
 
 .font-size-my2{
-  font-size: 8px;
+  font-size: $font-size*2;
 }
 
 .font-size-my3{
-  font-size: 12px;
+  font-size: $font-size*3;
 }
 
 .font-size-my4{
-  font-size: 16px;
+  font-size: $font-size*4;
 }
 
 .font-size-my5{
-  font-size: 20px;
+  font-size: $font-size*5;
 }
 
 .font-size-my6{
-  font-size: 24px;
+  font-size: $font-size*6;
 }
 
 .font-size-my7{
-  font-size: 28px;
+  font-size: $font-size*7;
 }
 
 .font-size-my8{
-  font-size: 32px;
+  font-size: $font-size*8;
 }
 
 .font-size-my9{
-  font-size: 36px;
+  font-size: $font-size*9;
 }
 
 .font-size-my10{
-  font-size: 40px;
+  font-size: $font-size*10;
 }
 
 .font-lh-my1{
-  line-height:4px;
+  line-height:$font-size;
 }
 
 .font-lh-my2{
-  line-height:8px;
+  line-height:$font-size*2;
 }
 
 .font-lh-my3{
-  line-height:12px;
+  line-height:$font-size*3;
 }
 
 .font-lh-my4{
-  line-height:16px;
+  line-height:$font-size*4;
 }
 
 .font-lh-my5{
-  line-height:20px;
+  line-height:$font-size*5;
 }
 
 .font-lh-my6{
-  line-height:24px;
+  line-height:$font-size*6;
 }
 
 .font-lh-my7{
-  line-height:28px;
+  line-height:$font-size*7;
 }
 
 .font-lh-my8{
-  line-height:32px;
+  line-height:$font-size*8;
 }
 
 .font-lh-my9{
-  line-height:36px;
+  line-height:$font-size*9;
 }
 
 .font-lh-my10{
-  line-height:40px;
+  line-height:$font-size*10;
 }

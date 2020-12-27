@@ -62,14 +62,70 @@
 
 
   
-<h1>
-  這是一段話
-</h1>
 
-<div class="box"></div>
+<main>
+  <section class="d-block d-sm-flex align-items-center">
+    <div>
+      <img class="image-photo d-block d-sm-none d-lg-block pr-md-5"
+        src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-1.png?raw=true" alt="">
+    </div>
 
-    <!-- kanban -->
-    <section class="kanban bg-my-success py-5">
+    <div class="container">
+      <div class="search">
+        <div class="search-body">
+          <img class="search-photo d-none d-sm-block d-lg-none m0-auto"
+            src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-1.png?raw=true"
+            alt="">
+          <h2 class="search-title text-my-primary font-weight-bold text-center text-lg-left">寵物服務，盡在 PETPET</h2>
+          <p class="d-block d-lg-inline search-text text-my-primary font-weight-bold text-center text-lg-left">
+            當您的毛孩有需要時，</p>
+          <p class="d-block d-lg-inline search-text text-my-primary font-weight-bold text-center text-lg-left">
+            幫您找到最合適的服務者！</p>
+          <form action="#" class="search-select">
+            <div class="d-flex">
+
+              <div class="search-item">
+                <select class="custom-select mr-sm-2" id="variety" name="variety">
+                  <option selected>品種</option>
+                  <option value="Husky">哈士奇</option>
+                  <option value="Shiba Inu">柴犬</option>
+                  <option value="bulldog">鬥牛犬</option>
+                </select>
+              </div>
+
+              <div class="search-item">
+                <select class="custom-select mr-sm-2" id="service" name="service">
+                  <option selected>服務</option>
+                  <option value="bath">洗澡</option>
+                  <option value="prune">修剪</option>
+                  <option value="foster care">寄養</option>
+                </select>
+              </div>
+
+              <div class="search-item">
+                <select class="custom-select mr-sm-2" id="city" name="city">
+                  <option selected>地區</option>
+                  <option value="Taipei City">台北市</option>
+                  <option value="New Taipei City">新北市</option>
+                  <option value="Taoyuan City">桃園市</option>
+                </select>
+              </div>
+
+              <div class="search-link">
+                <input type="submit" class="btn btn-primary" value="搜尋">
+              </div>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </section>
+</main>
+
+    <!--components元件 kanban招牌 -->
+    <section class="kanban bg-my-success py-5 mb-md-8 mb-1">
       <div class="kanban-body container">
 
         <h2 class="kanban-title font-size-my6 font-weight-bold text-my-primary">
@@ -88,9 +144,76 @@
 
       </div>
     </section>
+    <!-- 手機板底下logo顯示用 -->
+    <article class="container d-block d-md-none">
+      <h2 class="text-hide">
+        <a href="../dist/index.html" class="nav-link top-logo">寵愛毛小孩</a>
+      </h2>
+    </article>
+    <!-- components元件 shutters百葉窗  -->
+    <nav class="shutters container d-none d-md-block">
+      <div class="shutters-body row">
+        <!-- first column -->
+        <ul class="shutters-title col-3">
+          <li class="shutters-item mb-4">
+            <h2 class="text-hide">
+              <a href="../dist/index.html" class="nav-link top-logo">寵愛毛小孩</a>
+            </h2>
+          </li>
+          <li class="shutters-item mb-4"><a href="#" class="text-my-primary font-weight-bold">關於我們</a></li>
+          <li class="shutters-item mb-4"><a href="#" class="text-my-primary font-weight-bold">幫助中心</a></li>
+          <li class="shutters-item mb-4"><a href="#" class="text-my-primary font-weight-bold">使用條款</a></li>
+          <li class="shutters-item mb-4"><a href="#" class="text-my-primary font-weight-bold">隱私政策</a></li>
+        </ul>
+        <!-- second column -->
+        <ul class="shutters-title col-3 mt-3">
+          <li class="shutters-item mb-6">
+            <h3 class="font-size-my5">
+              <a href="#" class="text-my-primary font-weight-bold">寵物服務</a>
+            </h3>
+          </li>
+          <li class="shutters-item mb-4"><a href="#" class="text-my-primary font-weight-bold">寵物寄宿</a></li>
+          <li class="shutters-item mb-4"><a href="#" class="text-my-primary font-weight-bold">寵物到府保姆</a></li>
+          <li class="shutters-item mb-4"><a href="#" class="text-my-primary font-weight-bold">寵物美容洗澡</a></li>
+          <li class="shutters-item mb-4"><a href="#" class="text-my-primary font-weight-bold">寵物行為訓練</a></li>
+        </ul>
+        <!-- third column -->
+        <ul class="shutters-title col-3 mt-3">
+          <li class="shutters-item mb-6">
+            <h3 class="font-size-my5">
+              <a href="#" class="text-my-primary font-weight-bold">加入我們</a>
+            </h3>
+          </li>
+          <li class="shutters-item mb-4"><a href="#" class="text-my-primary font-weight-bold">成為寵物保姆</a></li>
+          <li class="shutters-item mb-4"><a href="#" class="text-my-primary font-weight-bold">加入寵物計程車</a></li>
+          <li class="shutters-item mb-4"><a href="#" class="text-my-primary font-weight-bold">專屬 APP 下載</a></li>
+          <li class="shutters-item mb-4"><a href="#" class="text-my-primary font-weight-bold">相關合約條款</a></li>
+        </ul>
+        <!-- fourth column -->
+        <ul class="shutters-title col-3 mt-3">
+          <li class="shutters-item mb-6">
+            <h3 class="font-size-my5">
+              <a href="#" class="text-my-primary font-weight-bold">聯繫我們</a>
+            </h3>
+          </li>
+          <li class="shutters-item mb-4"><a href="#" class="text-my-primary font-weight-bold">petpet@petmail.com</a>
+          </li>
+        </ul>
 
-    <footer class="footer">
+      </div>
+    </nav>
+    <!-- footer tel + Website Information -->
+    <footer class="footer container d-flex justify-content-center justify-content-md-between align-items-center">
+      <div class="d-none d-md-flex text-my-primary font-size-my7 font-weight-bold">
+        <span class="material-icons font-size-my7 mt-2 mr-1">
+          phone_enabled
+        </span>
+        <p>07-123-4567</p>
+      </div>
 
+      <div class="text-my-primary">
+        <p>Copyright © 2020 PetPet. All rights reserved.</p>
+      </div>
     </footer>
 
     <!--bs4-cdn-js-->

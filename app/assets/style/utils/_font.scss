@@ -39,6 +39,16 @@ $font-size:4px;
   font-size: $font-size*10;
 }
 
+.font-size-my11{
+  font-size: $font-size*11;
+}
+
+.font-size-my12{
+  font-size: $font-size*12;
+}
+
+
+//行高line-height
 .font-lh-my1{
   line-height:$font-size;
 }
@@ -77,4 +87,8 @@ $font-size:4px;
 
 .font-lh-my10{
   line-height:$font-size*10;
+}
+
+.font-lh-my11{
+  line-height:$font-size*11;
 }

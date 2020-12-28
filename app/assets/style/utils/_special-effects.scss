@@ -2,6 +2,7 @@ $seconds-primary: 0.3s;
 
 $color-opacity:rgba(255,255,255,0.5);
 $color-primary :#772400;
+$color-info : #D54100;
 
 .transition-primary{
    transition: $seconds-primary;
@@ -13,3 +14,18 @@ $color-primary :#772400;
    border-color: $color-primary;  
    } 
 }
+
+.hover-color{
+   color: $color-info;
+   &:hover{
+     color: $color-primary;
+   } 
+}
+
+.turn270{transform:rotate(270deg);
+        -ms-transform:rotate(270deg); /* Internet Explorer 9*/
+        -moz-transform:rotate(270deg); /* Firefox */
+        -webkit-transform:rotate(270deg); /* Safari 和 Chrome */
+        -o-transform:rotate(270deg); /* Opera */
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+    }

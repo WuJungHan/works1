@@ -40,4 +40,26 @@
     height: 288px;
   }
 
+  &-select1{
+    width: 100%;
+    @include media-breakpoint-up(lg) {
+      width: 120px;
+    }
+  }
+  &-select2,&-select3{
+    width: 100%;
+    @include media-breakpoint-up(lg) {
+      width: 210px;
+    }
+  }
+  &-btn{
+    width: 100%;
+    @include media-breakpoint-up(lg) {
+      width: 95px;
+    }
+  }
+  
+  
+
+
 }

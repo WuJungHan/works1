@@ -1,3 +1,17 @@
+//有寬度就自適應於中間
 .m0-auto{
   margin: 0 auto;
+}
+
+ $spacer:4px;
+ //margin
+.m-my-1{
+  margin: $spacer;
+}
+
+
+
+//padding
+.p-my-1{
+  padding:$spacer ;
 }

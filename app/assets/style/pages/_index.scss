@@ -1,0 +1,32 @@
+.search-arrow{
+  display:none;
+  @include media-breakpoint-up(sm) { 
+    display:block;
+    right: 0;
+    top: -60px;
+  }
+  @include media-breakpoint-up(lg) { 
+    right: 0;
+    top: -150px;
+  }
+}
+
+.card-img-top{
+  height: 120px;
+}
+
+.card-body{
+  &-img{
+    margin-top: -70px;
+  }
+}
+
+.card-arrow{
+  display:none;
+  @include media-breakpoint-up(md) { 
+    display:block;
+    right: -26px;
+    top: 50%;
+  }
+}
+

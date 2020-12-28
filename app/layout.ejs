@@ -26,6 +26,9 @@
 
   <!-- Material Icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <!-- all.css -->
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
@@ -64,7 +67,7 @@
   <%- contents %>
 
     <!--components元件 kanban招牌 -->
-    <section class="kanban bg-my-success py-5 mb-md-8 mb-1">
+    <section id="subscription" class="kanban bg-my-success py-5 mb-md-8 mb-1">
       <div class="kanban-body container">
 
         <h2 class="kanban-title font-size-my6 font-weight-bold text-my-primary">
@@ -84,11 +87,11 @@
       </div>
     </section>
     <!-- 手機板底下logo顯示用 -->
-    <article class="container d-block d-md-none">
+    <div class="container d-block d-md-none">
       <h2 class="text-hide">
         <a href="../dist/index.html" class="nav-link top-logo">寵愛毛小孩</a>
       </h2>
-    </article>
+    </div>
     <!-- components元件 shutters百葉窗  -->
     <nav class="shutters container d-none d-md-block">
       <div class="shutters-body row">
@@ -165,7 +168,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
       integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
       crossorigin="anonymous"></script>
-
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!--all-js-->
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>

@@ -1,4 +1,4 @@
-//4px單位
+//寬度4px單位
 $width:4px;
 
 .width-1{
@@ -43,4 +43,20 @@ $width:4px;
 
 .width-30{
   width: $width*30;
+}
+
+.width-40{
+  width: $width*40;
+}
+
+//高度單位4px
+$height:4px;
+
+.height-1{
+  height:$height;
+}
+
+
+.height-12{
+  height:$height*12;
 }

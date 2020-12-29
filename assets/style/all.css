@@ -10548,6 +10548,11 @@ ul, li {
   /* Opera */
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1); }
 
+.dark-layer-img {
+  background-color: rgba(0, 0, 0, 0.4); }
+  .dark-layer-img:hover {
+    background-color: rgba(0, 0, 0, 0.7); }
+
 .top-logo {
   background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/13f2e6e6b718b6abafb62ce7a672d42fc39eaeae/petpet-week8/logo.svg);
   width: 121px;

@@ -49,6 +49,10 @@ $width:4px;
   width: $width*40;
 }
 
+.width-67{
+  width: $width*67;
+}
+
 //高度單位4px
 $height:4px;
 
@@ -59,4 +63,12 @@ $height:4px;
 
 .height-12{
   height:$height*12;
+}
+
+.height-43{
+  height:$height*43;
+}
+
+.height-87{
+  height:$height*87;
 }

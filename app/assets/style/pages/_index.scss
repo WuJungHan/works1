@@ -1,3 +1,4 @@
+/*search搜尋區塊*/
 .search-arrow{
   display:none;
   @include media-breakpoint-up(sm) { 
@@ -10,7 +11,7 @@
     top: -150px;
   }
 }
-
+/*熱門保姆區塊 card*/
 .card-img-top{
   height: 120px;
 }
@@ -29,4 +30,58 @@
     top: 50%;
   }
 }
+/*線上預約區塊 watermark*/
+.watermark1{
+  width: 100%;
+  height: 172px;
+  @include media-breakpoint-up(md) { 
+    width: 350px;
+    height: 350px;
+  }
+}
+.watermark2{
+  width: 100%;
+  height: 172px;
+  @include media-breakpoint-up(md) { 
+    width: 303px;
+    height: 350px;
+  }
+}
+.watermark3{
+  width: 100%;
+  height: 172px;
+  @include media-breakpoint-up(md) { 
+    width: 267px;
+    height: 172px;
+  }
+}
+.watermark4{
+  width: 100%;
+  height: 172px;
+  @include media-breakpoint-up(md) {
+    width: 172px;
+    height: 350px;
+  }
+}
+/*banner 區塊*/
+.banner{
+  background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-9.jpeg?raw=true);
+  height: 812px;
+  @include media-breakpoint-up(md) {
+  height: 584px;
+  }
+}
 
+.banner-body{ 
+  width: auto;
+  @include media-breakpoint-up(md) {
+    width: 700px;
+  }
+}
+
+.carousel-my-icon{
+  margin-top: 211px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}

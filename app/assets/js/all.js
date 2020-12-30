@@ -1,5 +1,7 @@
-console.log('Hello!');
 
-$(document).ready(() => {
-  console.log('HesSchool Hello!');
+var swiper = new Swiper('.swiper-container', {
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
 });

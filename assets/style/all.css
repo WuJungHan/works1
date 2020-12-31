@@ -11052,6 +11052,7 @@ ul, li {
       right: 0;
       top: -150px; } }
 
+/*search搜尋區塊 end*/
 /*熱門保姆區塊 card*/
 .card-img-top {
   height: 120px; }
@@ -11067,6 +11068,7 @@ ul, li {
       right: -26px;
       top: 50%; } }
 
+/*熱門保姆區塊 card end*/
 /*線上預約區塊 watermark*/
 .watermark1 {
   width: 100%;
@@ -11100,6 +11102,7 @@ ul, li {
       width: 172px;
       height: 350px; } }
 
+/*線上預約區塊 watermark end*/
 /*banner 區塊*/
 .banner {
   background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-9.jpeg?raw=true);
@@ -11114,12 +11117,15 @@ ul, li {
     .banner-body {
       width: 700px; } }
 
+/*banner 區塊 end*/
+/*Carousel 輪播區塊*/
 .carousel-my-icon {
   margin-top: 211px;
   width: 50px;
   height: 50px;
   border-radius: 50%; }
 
+/*Carousel 輪播區塊 end*/
 .kanban-enter {
   width: 180px; }
 

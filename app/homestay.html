@@ -1,183 +1,156 @@
 ---
-title: PETPET 首頁
+title: PETPET 寵物寄宿
 layout: ./app/layout.ejs
 engine: ejs
-current: index
+current: homestay
 ---
-
-
 <main>
-  <!-- search搜尋區塊 -->
-  <section class="d-block d-sm-flex align-items-center mb-11">
-    <div>
-      <img class="image-photo d-block d-sm-none d-lg-block pr-md-5"
-        src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-1.png?raw=true" alt="">
-    </div>
-
-    <!-- components元件 search -->
-    <div class="container">
-      <div class="search">
-        <div class="search-body">
-          <img class="search-photo d-none d-sm-block d-lg-none m0-auto"
-            src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-1.png?raw=true"
-            alt="">
-          <h2 class="search-title text-my-primary font-weight-bold text-center text-lg-left">寵物服務，盡在 PETPET</h2>
-          <p class="d-block d-lg-inline search-text text-my-primary font-weight-bold text-center text-lg-left">
-            當您的毛孩有需要時，</p>
-          <p class="d-block d-lg-inline search-text text-my-primary font-weight-bold text-center text-lg-left">
-            幫您找到最合適的服務者！</p>
-          <form action="#" class="search-select">
-            <div class="d-lg-flex">
-
-              <div class="search-item">
-                <select class="custom-select search-select1 height-12 mb-3" id="variety" name="variety">
-                  <option selected>品種</option>
-                  <option value="cat">貓咪</option>
-                  <option value="dog">狗兒</option>
-
-                </select>
-              </div>
-
-              <div class="search-item">
-                <select class="custom-select search-select2 height-12 mb-3" id="service" name="service">
-                  <option selected>服務</option>
-                  <option value="foster-care">寄宿</option>
-                  <option value="beauty">美容</option>
-                  <option value="pet-behavior-training">寵物行為訓練</option>
-                </select>
-              </div>
-
-              <div class="search-item">
-                <select class="custom-select search-select3 height-12 mb-3" id="city" name="city">
-                  <option selected>地區</option>
-                  <option value="Kaohsiung City">高雄市</option>
-                  <option value="New Taipei City">新北市</option>
-                  <option value=" Taipei City">台北市</option>
-                </select>
-              </div>
-
-              <div class="search-link">
-                <input type="submit" class="btn btn-my-info search-btn height-12" value="搜尋">
-              </div>
-            </div>
-
-          </form>
-        </div>
+  <!-- 寵物寄宿 標題區塊 -->
+  <section class="container text-my-primary mb-8">
+    <div class="row align-items-center text-md-left text-center">
+      <div class="col-12 col-md-5 order-2 order-md-1">
+        <h2 class="font-size-my12 font-weight-bold">寵物寄宿</h2>
+        <p class="font-weight-bold font-size-my5">給您的毛孩最舒適的環境</p>
       </div>
-
-
+      <div class="col-12 col-md-7 order-1 order-md-2">
+        <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/homestay-1.png?raw=true"
+          alt="" class="mb-3 mb-md-0">
+      </div>
     </div>
-
-
   </section>
-  <!-- search搜尋區塊結束 -->
-  <!-- 熱門保姆區塊 -->
-  <section class="container position-relative text-my-primary mb-11 d-block d-md-none">
-    <div class="search-arrow position-absolute">
-      <a href="#subscription" class="transition-primary hover-color">
-        <span class=" material-icons font-size-my12">
-          arrow_drop_down_circle
-        </span>
-      </a>
-    </div>
+  <!-- 寵物寄宿 標題區塊 結束 -->
+  <!-- searchbar 區塊 -->
+  <div class="searchbar bg-my-success mb-11 py-3">
+    <form action="#" class="container d-flex flex-wrap">
 
-    <h3 class="font-size-my12 font-weight-bold">本月熱門保姆</h3>
-    <p class="font-weight-bold font-size-my5">即時瞭解您的需求，安排最適合毛孩的寵物保姆！</p>
+      <div class="mr-md-2 mr-3 mb-2 mb-md-0">
+        <label class="sr-only" for="what-pet">what-pet</label>
+        <select class="custom-select" id="what-pet" name="what-pet">
+          <option value="cat">貓咪</option>
+          <option value="dog">狗兒</option>
+        </select>
+      </div>
 
-    <!-- card區塊 -->
-    <div class="row">
-      <!-- card 1 -->
-      <div class="col-12 col-md-4">
-        <div class="card p-1 font-weight-bold  shadow mb-3">
-          <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-2.jpeg?raw=true"
-            class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <!-- 此處使用破格式將人物照片用負值推至上方圖片中間 -->
-            <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/person-1.png?raw=true"
-              class="card-body-img m0-auto" alt="...">
-            <h4 class="card-title font-size-my5">Jamie</h4>
-            <p class="card-text">寄宿、美容、寵物行為訓練
-            </p>
-            <a href="#" class="btn btn-my-info width-40 mb-4 py-3">預約</a>
-            <div class="d-flex justify-content-around">
-              <div>
-                <p>獲得評價</p>
-                <p><span class="font-size-my7">198</span>則</p>
-              </div>
-              <div>
-                <p>已完成訂單</p>
-                <p><span class="font-size-my7">580</span>件</p>
+      <div class="mr-2">
+        <label class="sr-only" for="city">city</label>
+        <select class="custom-select" id="city" name="city">
+          <option value="Kaohsiung City">高雄市</option>
+          <option value="New Taipei City">新北市</option>
+          <option value=" Taipei City">台北市</option>
+        </select>
+      </div>
+      <!-- datepicker -->
+      <div class="d-flex">
+        <label class="sr-only" for="form-date"></label>
+        <p><input type="text" id="datepicker-form" name="form-date" class="custom-select"></p>
+        <label class="p-2 font-weight-bold" for="to-date">至</label>
+        <p><input type="text" id="datepicker-to" name="to-date" class="custom-select"></p>
+      </div>
+      <!-- datepicker end -->
+    </form>
+  </div>
+  <!-- searchbar 區塊 結束 -->
+  <!-- hot homestay -->
+  <section class="container text-my-primary mb-6">
+    <h3 class="font-size-my8 font-weight-bold mb-3">本月熱門寄宿</h3>
+    <div class="container text-my-primary d-block d-md-none">
+      <!-- card區塊 -->
+      <div class="row">
+        <!-- card 1 -->
+        <div class="col-12 col-md-4">
+          <div class="card p-1 font-weight-bold  shadow mb-3">
+            <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-2.jpeg?raw=true"
+              class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <!-- 此處使用破格式將人物照片用負值推至上方圖片中間 -->
+              <img
+                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/person-1.png?raw=true"
+                class="card-body-img m0-auto" alt="...">
+              <h4 class="card-title font-size-my5">Jamie</h4>
+              <p class="card-text">寄宿、美容、寵物行為訓練
+              </p>
+              <a href="#" class="btn btn-my-info width-40 mb-4 py-3">預約</a>
+              <div class="d-flex justify-content-around">
+                <div>
+                  <p>獲得評價</p>
+                  <p><span class="font-size-my7">198</span>則</p>
+                </div>
+                <div>
+                  <p>已完成訂單</p>
+                  <p><span class="font-size-my7">580</span>件</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- card 2 -->
-      <div class="col-12 col-md-4">
-        <div class="card p-1 font-weight-bold shadow mb-3">
-          <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-3.jpeg?raw=true"
-            class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <!-- 此處使用破格式將人物照片用負值推至上方圖片中間 -->
-            <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/person-2.png?raw=true"
-              class="card-body-img m0-auto" alt="...">
-            <h4 class="card-title font-size-my5">Eric</h4>
-            <p class="card-text">寄宿、美容
-            </p>
-            <a href="#" class="btn btn-my-info width-40 mb-4 py-3">預約</a>
-            <div class="d-flex justify-content-around">
-              <div>
-                <p>獲得評價</p>
-                <p><span class="font-size-my7">76</span>則</p>
-              </div>
-              <div>
-                <p>已完成訂單</p>
-                <p><span class="font-size-my7">208</span>件</p>
+        <!-- card 2 -->
+        <div class="col-12 col-md-4">
+          <div class="card p-1 font-weight-bold shadow mb-3">
+            <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-3.jpeg?raw=true"
+              class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <!-- 此處使用破格式將人物照片用負值推至上方圖片中間 -->
+              <img
+                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/person-2.png?raw=true"
+                class="card-body-img m0-auto" alt="...">
+              <h4 class="card-title font-size-my5">Eric</h4>
+              <p class="card-text">寄宿、美容
+              </p>
+              <a href="#" class="btn btn-my-info width-40 mb-4 py-3">預約</a>
+              <div class="d-flex justify-content-around">
+                <div>
+                  <p>獲得評價</p>
+                  <p><span class="font-size-my7">76</span>則</p>
+                </div>
+                <div>
+                  <p>已完成訂單</p>
+                  <p><span class="font-size-my7">208</span>件</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- card 3 -->
-      <div class="col-12 col-md-4">
-        <div class="card p-1 font-weight-bold shadow position-relative">
-          <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-4.jpeg?raw=true"
-            class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <!-- 此處使用破格式將人物照片用負值推至上方圖片中間 -->
-            <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/person-3.png?raw=true"
-              class="card-body-img m0-auto" alt="...">
-            <h4 class="card-title font-size-my5">Yvonne</h4>
-            <p class="card-text">美容、寵物行為訓練
-            </p>
-            <a href="#" class="btn btn-my-info width-40 mb-4 py-3">預約</a>
-            <div class="d-flex justify-content-around">
-              <div>
-                <p>獲得評價</p>
-                <p><span class="font-size-my7">52</span>則</p>
-              </div>
-              <div>
-                <p>已完成訂單</p>
-                <p><span class="font-size-my7">196</span>件</p>
+        <!-- card 3 -->
+        <div class="col-12 col-md-4">
+          <div class="card p-1 font-weight-bold shadow position-relative">
+            <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-4.jpeg?raw=true"
+              class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <!-- 此處使用破格式將人物照片用負值推至上方圖片中間 -->
+              <img
+                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/person-3.png?raw=true"
+                class="card-body-img m0-auto" alt="...">
+              <h4 class="card-title font-size-my5">Yvonne</h4>
+              <p class="card-text">美容、寵物行為訓練
+              </p>
+              <a href="#" class="btn btn-my-info width-40 mb-4 py-3">預約</a>
+              <div class="d-flex justify-content-around">
+                <div>
+                  <p>獲得評價</p>
+                  <p><span class="font-size-my7">52</span>則</p>
+                </div>
+                <div>
+                  <p>已完成訂單</p>
+                  <p><span class="font-size-my7">196</span>件</p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="position-absolute turn270 card-arrow">
-            <a href="#" class="transition-primary hover-color">
-              <span class="material-icons font-size-my12">
-                arrow_drop_down_circle
-              </span>
-            </a>
+            <div class="position-absolute turn270 card-arrow">
+              <a href="#" class="transition-primary hover-color">
+                <span class="material-icons font-size-my12">
+                  arrow_drop_down_circle
+                </span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
 
   </section>
   <!-- Carousel 輪播區塊 -->
-  <div id="carouselExampleControls" class="carousel slide container d-none d-md-block" data-ride="carousel">
+  <div id="carouselExampleControls" class="carousel slide container d-none d-md-block mb-11" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
 
@@ -466,121 +439,25 @@ current: index
     </a>
   </div>
   <!-- Carousel 輪播區塊結束 -->
-  <!-- 熱門保姆區塊結束 -->
-  <!-- 線上預約區塊 -->
-  <section class="container text-my-primary mb-11">
-    <h3 class="font-size-my12 font-weight-bold">線上預約</h3>
-    <p class="font-weight-bold font-size-my5">即時瞭解您的需求，安排最適合毛孩的寵物保姆！</p>
+  <!-- hot homestay end -->
 
-    <ul class="d-md-flex">
-
-      <li class="card mr-md-1 mb-1 mb-md-0">
-        <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-5.jpeg?raw=true"
-          alt="" class="watermark1 rounded">
-        <a href="../dist/homestay.html">
-          <div
-            class="card-img-overlay d-flex align-items-center justify-content-center dark-layer-img transition-primary p-0 rounded">
-            <h4 class="text-white font-size-my6 font-weight-bold">寵物寄宿</h4>
-          </div>
-        </a>
+  <!-- homestay select -->
+  <section class="container">
+    <ul class="row">
+      <!-- card -->
+      <li class="col-6 col-sm-4 col-md-3">
+        測試
+        <img src="../app/assets/images/photo-1514888286974-6c03e2ca1dba.jfif" alt="">
       </li>
-
-      <li class="card mr-md-1 mb-1 mb-md-0">
-        <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-6.jpeg?raw=true"
-          alt="" class="watermark2 rounded">
-        <a href="#">
-          <div
-            class="card-img-overlay d-flex align-items-center justify-content-center dark-layer-img transition-primary p-0 rounded">
-            <h4 class="text-white font-size-my6 font-weight-bold">寵物美容</h4>
-          </div>
-        </a>
-      </li>
-
-      <li class="d-sm-flex flex-sm-column justify-content-between mr-md-1 mb-1 mb-md-0">
-        <div class="card mb-1 mb-md-0">
-          <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-7.jpeg?raw=true"
-            alt="" class="watermark3 rounded">
-          <a href="#">
-            <div
-              class="card-img-overlay d-flex align-items-center justify-content-center dark-layer-img transition-primary p-0 rounded">
-              <h4 class="text-white font-size-my6 font-weight-bold">到府照顧</h4>
-            </div>
-          </a>
-        </div>
-
-        <div class="card">
-          <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-8.jpeg?raw=true"
-            alt="" class="watermark3 rounded">
-          <a href="#">
-            <div
-              class="card-img-overlay d-flex align-items-center justify-content-center dark-layer-img transition-primary p-0 rounded">
-              <h4 class="text-white font-size-my6 font-weight-bold">遛狗保姆</h4>
-            </div>
-          </a>
-        </div>
-      </li>
-
-      <li class="card mb-1 mb-md-0">
-        <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-3.jpeg?raw=true"
-          alt="" class="watermark4 rounded">
-        <a href="#">
-          <div
-            class="card-img-overlay d-flex align-items-center justify-content-center dark-layer-img transition-primary p-0 rounded">
-            <h4 class="text-white font-size-my6 font-weight-bold">行為訓練</h4>
-          </div>
-        </a>
-      </li>
+      <li class="col-6 col-sm-4 col-md-3"></li>
+      <li class="col-6 col-sm-4 col-md-3"></li>
+      <li class="col-6 col-sm-4 col-md-3"></li>
+      <li class="col-6 col-sm-4 col-md-3"></li>
+      <li class="col-6 col-sm-4 col-md-3"></li>
+      <li class="col-6 col-sm-4 col-md-3"></li>
+      <li class="col-6 col-sm-4 col-md-3"></li>
+      <!-- card end-->
     </ul>
-
   </section>
-  <!-- 線上預約區塊結束 -->
-  <!-- banner 區塊  -->
-  <div class="banner bg-cover text-white py-md-11 py-9 mb-11">
-    <div class="container">
-      <h4 class="font-size-my10 mb-md-13 mb-8 d-flex d-md-block justify-content-center">PETPET目前已有</h4>
-      <div class="banner-body d-flex flex-column flex-md-row align-items-center justify-content-between">
-        <div class="pl-3 border-my-left mb-11 mb-md-0">
-          <p class=" font-size-my12">5278</p>
-          <p class="font-size-my5">人使用 PETPET</p>
-        </div>
-        <div class="pl-3 border-my-left mb-11 mb-md-0">
-          <p class="font-size-my12">580</p>
-          <p class="font-size-my5">人成為寵物保母</p>
-        </div>
-        <div class="pl-3 border-my-left mb-11 mb-md-0">
-          <p class="font-size-my12">10000+</p>
-          <p class="font-size-my5">已完成服務</p>
-        </div>
-      </div>
-    </div>
-
-  </div>
-  <!-- banner 區塊結束  -->
-  <!-- process 流程區塊 -->
-  <section>
-    <div class="container text-my-primary mb-11">
-      <h3 class="font-size-my12 font-weight-bold">預約流程</h3>
-      <p class="font-weight-bold font-size-my5">輕鬆三步驟，立即獲取最佳服務！</p>
-
-      <div class="row">
-        <div class="col-12 col-md-4">
-          <h5 class="font-size-my5 font-weight-bold">1.查詢想要的服務</h5>
-          <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-10.png?raw=true"
-            alt="">
-        </div>
-        <div class="col-12 col-md-4">
-          <h5 class="font-size-my5 font-weight-bold">2.找到合適的保姆</h5>
-          <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-11.png?raw=true"
-            alt="">
-        </div>
-        <div class="col-12 col-md-4">
-          <h5 class="font-size-my5 font-weight-bold">3.填寫資料完成預約</h5>
-          <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-12.png?raw=true"
-            alt="">
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- process 流程區塊 -->
-
+  <!-- homestay select end -->
 </main>

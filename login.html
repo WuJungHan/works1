@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 讓ie更新edge -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    PETPET 登入
+  </title>
+
+  <!-- 瀏覽器標籤小圖示 16x16px大小
+  <link rel="shortcut icon" href=""> -->
+
+  <!-- fb專用meta
+  <meta property="og:title" content="學員使用 HTML、CSS 開發一個網站(FB的標題)" />
+  <meta property="og:description" content="FB的描述">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="FB上的網址" />
+  <meta property="og:image" content="FB的圖片" /> 
+  -->
+
+  <!-- 用在iPhone及iPad經由”加入主畫面”，在主畫面上直接產生icon連結的圖片
+  <link href="圖片路徑" rel="" /> -->
+
+  <!-- Material Icons cdn css-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Swiper cdn css-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <!-- jQuery UI cdn css-->
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="http://jqueryui.com/resources/demos/style.css">
+  <!-- all.css -->
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <!-- header nav -->
+  <header class="container-fluid fixed-top bg-my-light">
+    <nav class="container d-flex justify-content-sm-between justify-content-center position-relative ">
+      <h1 class="text-hide">
+        <a href="./index.html" class="nav-link top-logo">寵愛毛小孩</a>
+      </h1>
+
+      <ul class="d-sm-flex align-items-center d-none">
+        <li>
+          <a class="text-my-primary font-weight-bold py-3 mr-6 transition-primary hover-buttom-border"
+            href="./homestay.html">預約服務</a>
+        </li>
+        <li>
+          <a class="text-my-primary font-weight-bold py-3 mr-6 transition-primary hover-buttom-border"
+            href="#">成為寵物保姆</a>
+        </li>
+        <li>
+          <a class="text-my-primary font-weight-bold py-3 transition-primary hover-buttom-border"
+            href="./login.html">登入</a>
+        </li>
+      </ul>
+      <div class="table-rows d-sm-none position-absolute">
+        <a class="text-my-secondary transition-primary" href="#" data-toggle="modal" data-target="#exampleModal">
+          <span class="material-icons font-size-my9">
+            table_rows
+          </span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+
+
+
+  
+<main>
+  <section class="container-fluid position-relative">
+    <div class="container">
+      <div class="row vh-100 align-items-center">
+        <div class="position-absolute left-0  d-none d-xl-block">
+          <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-1.png?raw=true"
+            alt="">
+        </div>
+        <div class="col-xl-7 col-md-8 col-12 offset-xl-5 offset-md-2">
+          <h2 class="font-size-my8 text-my-primary font-weight-bold mb-8">登入</h2>
+          <form>
+            <div class="form-group">
+              <label for="email">電子信箱</label>
+              <input type="email" class="form-control" id="email" placeholder="example@gmail.com" name="email">
+            </div>
+            <div class="form-group">
+              <label for="password">密碼</label>
+              <input type="password" class="form-control mb-1" id="password" placeholder="請輸入密碼" name="password">
+              <a href="#" class="text-secondary">忘記密碼?</a>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="remember-account" name="remember-account">
+              <label class="form-check-label" for="remember-account">記住我的帳號</label>
+            </div>
+            <div class="row mb-6">
+              <div class="col-6">
+                <div
+                  class="btn btn-my-light d-flex align-items-center justify-content-center border border-my-light80 rounded ">
+                  <img
+                    src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/13f2e6e6b718b6abafb62ce7a672d42fc39eaeae/petpet-week8/facebook.svg"
+                    alt="">
+                  <a href="https://www.facebook.com/facebook " target="_blank" class="stretched-link">Facebook</a>
+                </div>
+              </div>
+              <div class="col-6">
+                <div
+                  class="btn btn-my-light d-flex align-items-center justify-content-center border border-my-light80 rounded">
+                  <img
+                    src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/13f2e6e6b718b6abafb62ce7a672d42fc39eaeae/petpet-week8/google.svg"
+                    alt="">
+                  <a href="https://www.google.com.tw " target="_blank" class="stretched-link">Google</a>
+                </div>
+              </div>
+            </div>
+            <a type="submit" class="btn btn-my-info text-white mb-1 d-block py-2 login-btn" href="./member.html">登入</a>
+            <a href="#" class="text-my-info">還沒註冊嗎?</a>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+    <!-- Modal -->
+    <div class="modal fade mt-10 bg-white" id="exampleModal" tabindex="-1" role="dialog"
+      aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content border-0">
+
+          <ul class="text-center ">
+            <li class="border-my-buttom py-3">
+              <a href="./homestay.html" class="text-my-primary font-weight-bold font-size-my5">預約服務</a>
+            </li>
+            <li class="border-my-buttom py-3">
+              <a href="#" class="text-my-primary font-weight-bold font-size-my5">成為寵物保姆</a>
+            </li>
+            <li class="border-my-buttom py-3">
+              <a href="./login.html" class="text-my-primary font-weight-bold font-size-my5 stretched-link">登入</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    <!-- Modal end -->
+    <!--bs4-cdn-js-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"></script>
+    <!-- Swiper cdn js-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- jQuery UI cdn js-->
+    <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <!--all-js-->
+    <!-- <script src="./assets/js/vendors.js"></script> -->
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

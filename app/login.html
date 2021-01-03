@@ -1,0 +1,62 @@
+---
+title: PETPET 登入
+layout: ./app/layout-header-only.ejs
+engine: ejs
+current: login
+---
+
+<main>
+  <section class="container-fluid position-relative">
+    <div class="container">
+      <div class="row vh-100 align-items-center">
+        <div class="position-absolute left-0  d-none d-xl-block">
+          <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/petpet-week8/index-1.png?raw=true"
+            alt="">
+        </div>
+        <div class="col-xl-7 col-md-8 col-12 offset-xl-5 offset-md-2">
+          <h2 class="font-size-my8 text-my-primary font-weight-bold mb-8">登入</h2>
+          <form>
+            <div class="form-group">
+              <label for="email">電子信箱</label>
+              <input type="email" class="form-control" id="email" placeholder="example@gmail.com" name="email">
+            </div>
+            <div class="form-group">
+              <label for="password">密碼</label>
+              <input type="password" class="form-control mb-1" id="password" placeholder="請輸入密碼" name="password">
+              <a href="#" class="text-secondary">忘記密碼?</a>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="remember-account" name="remember-account">
+              <label class="form-check-label" for="remember-account">記住我的帳號</label>
+            </div>
+            <div class="row mb-6">
+              <div class="col-6">
+                <div
+                  class="btn btn-my-light d-flex align-items-center justify-content-center border border-my-light80 rounded ">
+                  <img
+                    src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/13f2e6e6b718b6abafb62ce7a672d42fc39eaeae/petpet-week8/facebook.svg"
+                    alt="">
+                  <a href="https://www.facebook.com/facebook " target="_blank" class="stretched-link">Facebook</a>
+                </div>
+              </div>
+              <div class="col-6">
+                <div
+                  class="btn btn-my-light d-flex align-items-center justify-content-center border border-my-light80 rounded">
+                  <img
+                    src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/13f2e6e6b718b6abafb62ce7a672d42fc39eaeae/petpet-week8/google.svg"
+                    alt="">
+                  <a href="https://www.google.com.tw " target="_blank" class="stretched-link">Google</a>
+                </div>
+              </div>
+            </div>
+            <a type="submit" class="btn btn-my-info text-white mb-1 d-block py-2 login-btn" href="./member.html">登入</a>
+            <a href="#" class="text-my-info">還沒註冊嗎?</a>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+</main>

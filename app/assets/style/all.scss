@@ -1,18 +1,22 @@
 //bs4 & normalize reset
-@import "../style/bootstrap/bootstrap.scss";
+@import "./bootstrap/bootstrap.scss";
 //base
-@import "../style/base/typography";
+@import "./base/typography";
 //utils
-@import "../style/utils/font";
-@import "../style/utils/border";
-@import "../style/utils/sizing";
-@import "../style/utils/spacing";
-@import "../style/utils/special-effects";
-@import "../style/utils/background";
-//layout
-@import "../style/layout/header";
-//pages
-@import "../style/pages/index";
+@import "./utils/font";
+@import "./utils/border";
+@import "./utils/sizing";
+@import "./utils/spacing";
+@import "./utils/special-effects";
+@import "./utils/background";
+@import "./utils/position";
 //components
-@import "../style/components/kanban";
-@import "../style/components/search"
+@import "./components/kanban";
+@import "./components/search";
+//layout
+@import "./layout/header";
+//pages
+@import "./pages/index";
+@import "./pages/homestay";
+@import "./pages/login";
+@import "./pages/member";

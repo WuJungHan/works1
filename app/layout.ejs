@@ -38,30 +38,36 @@
 <body class="pt-11">
   <!-- header nav -->
   <header class="container-fluid fixed-top bg-my-light">
-    <nav class="container d-flex justify-content-sm-between justify-content-center position-relative ">
+    <nav class="container d-flex justify-content-sm-between justify-content-center 
+  position-relative">
       <h1 class="text-hide">
         <a href="./index.html" class="nav-link top-logo">寵愛毛小孩</a>
       </h1>
 
       <ul class="d-sm-flex align-items-center d-none">
         <li>
-          <a class="text-my-primary font-weight-bold py-3 mr-6 transition-primary hover-buttom-border" href="#">預約服務</a>
+          <a class="text-my-primary font-weight-bold py-3 mr-6 transition-primary hover-buttom-border"
+            href="./homestay.html">預約服務</a>
         </li>
         <li>
           <a class="text-my-primary font-weight-bold py-3 mr-6 transition-primary hover-buttom-border"
             href="#">成為寵物保姆</a>
         </li>
         <li>
-          <a class="text-my-primary font-weight-bold py-3 transition-primary hover-buttom-border" href="#">登入</a>
+          <a class="text-my-primary font-weight-bold py-3 transition-primary hover-buttom-border"
+            href="./login.html">登入</a>
         </li>
       </ul>
-      <div class="table-rows d-sm-none position-absolute">
-        <a class="text-my-secondary transition-primary" href="#">
+      <div class="table-rows d-sm-none position-absolute ">
+
+        <a class="text-my-secondary transition-primary " href="#" data-toggle="modal" data-target="#exampleModal">
           <span class="material-icons font-size-my9">
             table_rows
           </span>
         </a>
+
       </div>
+
     </nav>
   </header>
 
@@ -103,7 +109,7 @@
         <ul class="shutters-title col-3">
           <li class="shutters-item mb-4">
             <h2 class="text-hide">
-              <a href="../dist/index.html" class="nav-link top-logo">寵愛毛小孩</a>
+              <a href="./index.html" class="nav-link top-logo">寵愛毛小孩</a>
             </h2>
           </li>
           <li class="shutters-item mb-4"><a href="#" class="text-my-primary font-weight-bold">關於我們</a></li>
@@ -161,6 +167,30 @@
         <p>Copyright © 2020 PetPet. All rights reserved.</p>
       </div>
     </footer>
+    <!-- footer tel + Website Information end-->
+
+    <!-- Modal -->
+    <div class="modal fade mt-10 bg-white" id="exampleModal" tabindex="-1" role="dialog"
+      aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content border-0">
+
+          <ul class="text-center ">
+            <li class="border-my-buttom py-3">
+              <a href="./homestay.html" class="text-my-primary font-weight-bold font-size-my5">預約服務</a>
+            </li>
+            <li class="border-my-buttom py-3">
+              <a href="#" class="text-my-primary font-weight-bold font-size-my5">成為寵物保姆</a>
+            </li>
+            <li class="border-my-buttom py-3">
+              <a href="./login.html" class="text-my-primary font-weight-bold font-size-my5 stretched-link">登入</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    <!-- Modal end -->
 
     <!--bs4-cdn-js-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

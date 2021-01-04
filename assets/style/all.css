@@ -11239,6 +11239,17 @@ ul, li {
     .search-btn {
       width: 95px; } }
 
+.slideshow-item-active {
+  margin-bottom: 12px; }
+  .slideshow-item-active img {
+    width: 540px;
+    height: 440px; }
+
+.slideshow-item {
+  height: 96px;
+  width: 96px;
+  margin-right: 8px; }
+
 .top-logo {
   background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/13f2e6e6b718b6abafb62ce7a672d42fc39eaeae/petpet-week8/logo.svg);
   width: 121px;

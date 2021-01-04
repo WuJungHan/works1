@@ -18,5 +18,11 @@ $(document).ready(function () {
   });
   //Swiper 結束
 
+  //元件 Slideshow 
+  $(".slideshow-inner a").click(function () {
+    $(".slideshow-item-active img").attr("src", $(this).attr('href'));
+    return false;
+  });
+  //Slideshow end
 
 });

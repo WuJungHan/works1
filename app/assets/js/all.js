@@ -25,4 +25,26 @@ $(document).ready(function () {
   });
   //Slideshow end
 
+  //id#getFixed 可自由調整Fixed啟動或結束 
+  //把所需固定的元素外面包 id = " getFixed " 
+  function fixDiv() {
+    var $cache = $('#getFixed');
+    if ($(window).scrollTop() > 100)
+      $cache.css({
+        //'position': '屬性'
+        'position': '',
+        //'方向': '指定位置的px或屬性'
+        'buttom': ''
+      });
+    else
+      $cache.css({
+        //'position': '屬性'
+        'position': '',
+        //'方向': '指定位置的px或屬性'
+        'buttom': ''
+      });
+  }
+  $(window).scroll(fixDiv);
+  fixDiv();
+  //id#getFixed end
 });

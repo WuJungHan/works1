@@ -1,0 +1,10 @@
+.position-my-md-static{
+  position:static;
+  @include media-breakpoint-up(md) {
+    position: fixed;
+  }
+}
+
+.mb-47{
+  margin-bottom: 188px;
+}

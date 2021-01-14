@@ -11368,4 +11368,13 @@ ul, li {
     .h-my-min200 {
       min-height: 800px; } }
 
+.position-my-md-static {
+  position: static; }
+  @media (min-width: 767px) {
+    .position-my-md-static {
+      position: fixed; } }
+
+.mb-47 {
+  margin-bottom: 188px; }
+
 /*# sourceMappingURL=all.css.map */
